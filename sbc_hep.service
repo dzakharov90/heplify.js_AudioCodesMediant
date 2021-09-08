@@ -1,0 +1,16 @@
+[Unit]
+Description=SBC txt SIP Flow to HEP protocol converter
+#Documentation=https://example.com
+After=network.target
+
+[Service]
+#Environment=NODE_PORT=3001
+#Type=simple
+#User=ubuntu
+WorkingDirectory=/root/hepJS_SBC/
+ExecStart=/usr/bin/node /root/hepJS_SBC/index.js
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
