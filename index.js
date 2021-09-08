@@ -24,11 +24,10 @@ var getSocket = function (type) {
   return socket;
 }
 
-var hep_server = '34.107.60.63';
-//var hep_server = '185.104.113.96';
-var hep_port = '9060';
+var hep_server = 'a.dd.re.ss';
+var hep_port = 'hep_port';
 var hep_pass = '';
-var hep_id = 5000;
+var hep_id = hep_id;
 
 var socket;
 
